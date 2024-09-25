@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.task {
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-bottom: 44px;
+}
+
+#text, #text_2 {
+    margin-bottom: 32px;
+    font-size: 22px;
+    color: #171717;
+    font-weight: 500;
+}
+
+.btn_hide,
+.btn_hide_div,
+.btn_reverse {
+    display: block;
+    padding: 20px 40px;
+    background: #171717;
+    color: #fff;
+}
+
+.btn_hide.hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* 4 */
+
+#ball {
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.ball_box {
+    padding: 40px;
+    width: 100%;
+    background: #ccc;
+    height: 600px;
+}
+
+.ball_animate {
+    transition: 500ms;
+    transform: rotate(360deg) translateX(-100px) translateY(-50px);
+
+}
